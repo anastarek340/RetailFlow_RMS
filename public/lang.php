@@ -1,0 +1,1 @@
+<?php require_once __DIR__."/../config/auth.php";$_SESSION["lang"]=($_GET["to"]??"ar")==="en"?"en":"ar";redirect($_SERVER["HTTP_REFERER"]??"index.php");
